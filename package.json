@@ -1,0 +1,15 @@
+{
+  "name": "vote-server",
+  "version": "1.0.0",
+  "description": "Electronic Vote Transmission and Tallying Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:8081": "node server.js 8081",
+    "start:8082": "node server.js 8082"
+  },
+  "dependencies": {
+    "ws": "^8.14.2",
+    "uuid": "^9.0.1"
+  }
+}
