@@ -16,7 +16,7 @@ class VoteServer {
     this.clients = new Map();
     this.votes = new Map();
     this.votedClients = new Set();
-    this.candidates = ['Candidate A', 'Candidate B', 'Candidate C'];
+    this.candidates = ['Edith Ronoh', 'Albert Ondicho', 'Dan Mburu','Mr kasongo'];
     
     this.initializeCandidates();
     this.setupEventHandlers();
